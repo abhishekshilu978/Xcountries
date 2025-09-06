@@ -34,7 +34,7 @@ export default function Countries(){
         fetch(API)
         .then(response => response.json())
         .then(data => setCountryData(data))
-        .catch((error) => console.error("Enter fetching data " + error));
+        .catch((error) => console.error("Error fetching data:" + error));
     },[])
     return (
     <div style={{display: "flex", flexWrap: "wrap", gap: "10px"}}>

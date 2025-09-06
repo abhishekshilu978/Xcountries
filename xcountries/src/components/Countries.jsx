@@ -11,8 +11,8 @@ const Card = ({name, flag, abbr}) => {
             alignItems: "center",
             border: "1px solid gray",
             borderRadius: "4px",
-            height: "200px",
-            width: "200px",
+            height: "220px",
+            width: "220px",
             textAlign: "center",
 
         }} 
